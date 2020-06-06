@@ -1,0 +1,43 @@
+.hero-nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item::before {
+    @extend %pseudo;
+    margin: 0 auto;
+    width: 280px;
+    height: 3px;
+
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    margin-bottom: 24px;
+  }
+
+  &__item:hover::before {
+    background-image: linear-gradient(
+      90deg,
+      rgba(243, 129, 129, 1) 0%,
+      rgba(243, 129, 129, 1) 25%,
+      rgba(255, 255, 255, 1) 25%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__link {
+    font-size: 14pt;
+    font-weight: $bold-text;
+    text-transform: uppercase;
+  }
+
+  &__link-number {
+    font-size: 20pt;
+  }
+}

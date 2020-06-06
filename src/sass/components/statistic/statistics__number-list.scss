@@ -1,0 +1,37 @@
+.statistics {
+  &__list {
+    display: flex;
+    height: 270px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid $color-main-white;
+
+    &:first-child {
+      border-left: 1px solid $color-main-white;
+    }
+
+    &:hover {
+      background-color: rgb(123, 228, 184);
+    }
+  }
+
+  &__number {
+    font-size: 72px;
+    color: $color-main-white;
+    font-weight: $bold-text;
+  }
+
+  &__number-text {
+    font-size: 14px;
+    color: $color-main-white;
+    text-transform: uppercase;
+  }
+}

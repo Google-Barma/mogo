@@ -1,0 +1,26 @@
+@keyframes service__item_animation {
+  from {
+  }
+  15% {
+    transform: rotateY(15deg);
+  }
+  30% {
+    transform: rotateY(100deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  70% {
+    transform: rotateY(260deg);
+  }
+  85% {
+    transform: rotateY(345deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.services__item:hover .services__item-img {
+  animation-name: service__item_animation;
+  animation-duration: 1s;
+}

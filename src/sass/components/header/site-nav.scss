@@ -1,0 +1,40 @@
+.site-nav {
+  &__list {
+    display: flex;
+  }
+  &__item {
+    padding-bottom: 15px;
+
+    &:hover {
+      color: $color-yellow-accent;
+    }
+    &:hover .site-nav__link::after {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  &__item {
+    margin-right: 60px;
+  }
+
+  &__link {
+    position: relative;
+    font-size: 14px;
+    font-weight: $regular-text;
+    line-height: 1.2;
+    transition: color 0.2s linear;
+    @extend %uppercase-center;
+
+    &::after {
+      @extend %pseudo;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 3px;
+      background-color: $color-yellow-accent;
+      transition: all 0.2s linear;
+    }
+  }
+}

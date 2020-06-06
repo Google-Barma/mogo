@@ -1,0 +1,66 @@
+//base
+@import './normalize.scss';
+@import './helpers/vars.scss';
+@import './base.scss';
+@import './typography.scss';
+@import './helpers/placeholders.scss';
+
+//components
+@import './components/container.scss';
+@import './components/title.scss';
+@import './components/section.scss';
+@import './components/text-subtitle.scss';
+@import './components/second-title.scss';
+
+//header
+@import './components/header/header.scss';
+@import './components/header/navigation-wrapper.scss';
+@import './components/header/logo.scss';
+@import './components/header/site-nav.scss';
+@import './components/header/helper.scss';
+@import './components/header/navigation-block.scss';
+@import './components/header/hero__title.scss';
+@import './components/header/hero__btn.scss';
+@import './components/header/hero-nav.scss';
+
+//about
+@import './components/about/about-title.scss';
+@import './components/about/about-subtitle.scss';
+@import './components/about/about-list.scss';
+
+//statistic
+@import './components/statistic/statistic-section.scss';
+@import './components/statistic/statistics__number-list.scss';
+
+//services
+@import './components/services-section/services-title.scss';
+@import './components/services-section/services-list.scss';
+@import './components/services-section/services-animation.scss';
+
+//design
+@import './components/design/design-section.scss';
+@import './components/design/design__ipad.scss';
+@import './components/design/design__iphone.scss';
+@import './components/design/design-section.scss';
+
+//team
+@import './components/team/team.scss';
+@import './components/team/social__list.scss';
+@import './components/team/team__item-wrapper.scss';
+@import './components/team/team__item-overley.scss';
+
+//logos
+@import './components/logos/logos-section.scss';
+
+//work
+@import './components/work/work-title.scss';
+@import './components/work/text-subtitle--center.scss';
+
+.galery-block {
+  display: flex;
+  font-size: 0;
+}
+.work__image-block {
+  display: inline-block;
+  width: 960px;
+}

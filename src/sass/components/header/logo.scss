@@ -1,0 +1,9 @@
+.site-logo {
+  font-size: 30pt;
+  font-weight: $bold-text;
+  transition: transform 0.2s linear;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

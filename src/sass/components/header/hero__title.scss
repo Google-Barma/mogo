@@ -1,0 +1,16 @@
+.hero__title {
+  font-size: 150px;
+  width: 810px;
+  letter-spacing: -0.3rem;
+  color: $color-main-white;
+  &::after {
+    background-color: $color-main-white;
+    margin-top: 52px;
+    margin-bottom: 50px;
+  }
+
+  &--italic {
+    font-size: 72px;
+    letter-spacing: 0;
+  }
+}

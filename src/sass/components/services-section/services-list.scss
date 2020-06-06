@@ -1,0 +1,32 @@
+.services {
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    flex-basis: calc(100% / 3 - (70px * 2 / 3));
+    display: flex;
+
+    &:not(:nth-child(3n)) {
+      margin-right: 70px;
+    }
+
+    &:not(:nth-last-child(-n + 3)) {
+      margin-bottom: 60px;
+    }
+
+    &::after {
+      @extend %pseudo;
+    }
+  }
+
+  &__item-img {
+    fill: $color-item-image;
+    margin-right: 26px;
+  }
+}

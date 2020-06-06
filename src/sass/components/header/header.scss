@@ -1,0 +1,21 @@
+.header {
+  color: $color-main-white;
+  padding-top: 26px;
+  padding-bottom: 230px;
+  background-image: linear-gradient(
+      rgba($color-first-gradient, 0.9),
+      rgba($color-second-gradient, 0.9)
+    ),
+    url(../../../images/bg/layer15-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-resolution: 192dpi) {
+    background-image: linear-gradient(
+        rgba($color-first-gradient, 0.9),
+        rgba($color-second-gradient, 0.9)
+      ),
+      url(../../../images/bg/layer15@2x.jpg);
+  }
+}

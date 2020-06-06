@@ -1,0 +1,22 @@
+.title {
+  margin: 0 auto;
+  font-weight: $bold-text;
+  font-size: 30pt;
+  color: $color-main-dark;
+  @extend %uppercase-center;
+  letter-spacing: 0;
+
+  &::after {
+    @extend %pseudo;
+    margin: 0 auto;
+    width: 60px;
+    height: 3px;
+    background-color: $color-underline;
+    margin-top: 36px;
+  }
+  &--italic {
+    text-transform: capitalize;
+    display: block;
+    font-family: $accent-title-font;
+  }
+}

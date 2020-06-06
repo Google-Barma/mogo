@@ -1,0 +1,17 @@
+.team__item-overley {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9)
+  );
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s linear;
+}

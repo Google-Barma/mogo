@@ -1,0 +1,15 @@
+.design-section {
+  position: relative;
+  min-height: 850px;
+  margin-bottom: 64px;
+  background-image: url(../../../images/unique-design/bg/layer45.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 64px;
+  background-blend-mode: soft-light;
+
+  @media (min-resolution: 192dpi) {
+    background-image: url(../../../images/unique-design/bg/layer45@2x.jpg);
+  }
+}
