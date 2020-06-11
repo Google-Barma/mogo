@@ -13,9 +13,11 @@
 
   &__date-overlay {
     position: absolute;
+    top: 160px;
+    left: -10px;
     display: flex;
     justify-content: center;
-    align-item: center;
+    align-items: center;
     flex-direction: column;
     width: 60px;
     height: 70px;
@@ -41,5 +43,30 @@
 
   &__list-title {
     margin-bottom: 14px;
+  }
+
+  &__list-text::after {
+    @extend %pseudo;
+    width: 380px;
+    height: 1px;
+    background-color: $color-footer-border;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__icon-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 8px;
+    fill: $color-subscribe-btn;
+  }
+
+  &__icon-numb {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
   }
 }
