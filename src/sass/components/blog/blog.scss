@@ -1,0 +1,45 @@
+.blog {
+  &-title {
+    margin-bottom: 46px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    position: relative;
+    max-width: 380px;
+  }
+
+  &__date-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    flex-direction: column;
+    width: 60px;
+    height: 70px;
+    color: $color-main-white;
+    background-color: $color-subscribe-btn;
+  }
+
+  &__date {
+    text-align: center;
+
+    font-weight: $bold-text;
+    font-size: 30px;
+  }
+  &__month {
+    font-family: $second-font;
+    font-weight: $light-italic-text;
+    text-align: center;
+  }
+
+  &__img {
+    margin-bottom: 18px;
+  }
+
+  &__list-title {
+    margin-bottom: 14px;
+  }
+}
