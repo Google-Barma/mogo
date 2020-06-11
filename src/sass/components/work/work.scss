@@ -1,0 +1,40 @@
+.work {
+  &__picture-wrapper {
+    max-width: 1920px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__left-col {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+  }
+
+  &__img-overflow {
+    position: relative;
+    overflow: hidden;
+  }
+
+  //   &__img-overlay {
+  //     position: absolute;
+  //     left: 0;
+  //     top: 0;
+  //     width: 100%;
+  //     height: 100%;
+  //     background-image: linear-gradient(
+  //       rgba(243, 129, 129, 0.9),
+  //       rgba(252, 227, 138, 0.9)
+  //     );
+  //     visibility: hidden;
+  //     opacity: 0;
+  //     transition: all 0.2s linear;
+  //   }
+
+  &__img {
+    transition: transform 0.3s linear;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}

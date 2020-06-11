@@ -11,6 +11,7 @@
 @import './components/section.scss';
 @import './components/text-subtitle.scss';
 @import './components/second-title.scss';
+@import './components/text-subtitle--center.scss';
 
 //header
 @import './components/header/header.scss';
@@ -54,13 +55,5 @@
 
 //work
 @import './components/work/work-title.scss';
-@import './components/work/text-subtitle--center.scss';
-
-.galery-block {
-  display: flex;
-  font-size: 0;
-}
-.work__image-block {
-  display: inline-block;
-  width: 960px;
-}
+@import './components/work/work.scss';
+@import './components/work/work-subtitle.scss';
