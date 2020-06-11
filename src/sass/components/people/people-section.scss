@@ -1,0 +1,10 @@
+.people-section {
+  background-image: url(../images/people/bg/layer53-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  @media (min-resolution: 192dpi) {
+    background-image: url(../images/people/bg/layer53@2x-min.jpg);
+  }
+}

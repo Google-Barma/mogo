@@ -8,7 +8,7 @@
   &__left-col {
     display: flex;
     flex-wrap: wrap;
-    max-width: 960px;
+    flex-basis: 960px;
   }
 
   &__img-overflow {

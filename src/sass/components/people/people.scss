@@ -1,0 +1,54 @@
+.people-title {
+  color: $color-main-dark;
+  margin-bottom: 86px;
+}
+
+.people {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+
+    &:not(:nth-child(2n)) {
+      margin-right: 90px;
+    }
+
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 74px;
+    }
+  }
+
+  &__list-img {
+    border-radius: 50%;
+  }
+
+  &__text-wrapper {
+    padding-left: 30px;
+  }
+
+  &__list-title {
+    margin-bottom: 10px;
+  }
+
+  &__list-subtitle {
+    font-style: italic;
+    margin-bottom: 20px;
+
+    &::after {
+      @extend %pseudo;
+      width: 60px;
+      height: 3px;
+      background-color: $color-underline;
+      margin-top: 16px;
+    }
+  }
+
+  &__list-text {
+    max-width: 380px;
+  }
+}
