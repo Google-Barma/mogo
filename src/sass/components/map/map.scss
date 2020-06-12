@@ -1,0 +1,35 @@
+.map-section {
+  padding-top: 54px;
+  padding-bottom: 54px;
+  background-image: url(../images/blog/bg/layer59.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  @media (min-resolution: 192dpi) {
+    background-image: url(../images/blog/bg/layer59@2x-min.jpg);
+  }
+}
+
+.map-image {
+  display: block;
+  margin: 0 auto 14px;
+  fill: $color-underline;
+}
+
+.map-text {
+  font-size: 24px;
+  color: $color-underline;
+  font-weight: $bold-text;
+  text-transform: uppercase;
+  text-align: center;
+
+  &:after {
+    @extend %pseudo;
+    width: 60px;
+    height: 3px;
+    background-color: $color-underline;
+
+    margin: 20px auto 0;
+  }
+}

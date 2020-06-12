@@ -1,0 +1,10 @@
+.contacts-logo {
+  font-size: 46px;
+  font-weight: $bold-text;
+  color: $color-main-gray;
+  margin-bottom: 34px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}

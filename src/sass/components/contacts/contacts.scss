@@ -1,0 +1,97 @@
+.description {
+  &__block {
+    max-width: 480px;
+
+    &::after {
+      @extend %pseudo;
+      width: 100%;
+      height: 1px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: $color-footer-border;
+    }
+  }
+
+  &__text {
+    margin-bottom: 50px;
+  }
+
+  &__followers {
+    font-size: 14px;
+
+    &--bold {
+      font-weight: $bold-text;
+      font-size: 18px;
+    }
+  }
+}
+
+.follow-icons {
+  display: flex;
+  margin-bottom: 48px;
+
+  &__text {
+    font-family: $second-font;
+    font-weight: $light-italic-text;
+    margin-right: 20px;
+    font-style: italic;
+  }
+
+  &__icons {
+    display: flex;
+  }
+
+  &__img {
+    fill: $color-item-image;
+    width: 18px;
+    height: 18px;
+
+    &:hover {
+      fill: $color-underline;
+    }
+  }
+}
+
+.follows__link {
+  &:not(:last-child) {
+    margin-right: 12px;
+  }
+}
+
+.contacts {
+  &__form {
+    display: flex;
+  }
+
+  &__input {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    padding-left: 10px;
+
+    &::placeholder {
+      text-transform: capitalize;
+      font-style: italic;
+      color: $color-footer-border;
+    }
+
+    &:not(:placeholder-shown):invalid {
+      outline-color: $color-underline;
+    }
+
+    &:valid {
+      outline-color: $color-item-image;
+    }
+  }
+
+  &__button {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color: $color-item-image;
+    font-weight: $bold-text;
+    text-transform: uppercase;
+    color: $color-main-white;
+    border: none;
+  }
+}
