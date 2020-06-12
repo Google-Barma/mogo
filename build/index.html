@@ -113,14 +113,15 @@
                     </svg>
                     <p class="about-list__text">super team</p>
                   </div>
-      
-                  <img
-                    src="images/about/layer44-min.jpg"
-                    alt="keypad"
-                    class="about-list__img"
-                    sizes="380"
-                    height="250"
-                  />
+                  <picture class="about-list__img">
+                    <source
+                      srcset="
+                        ./images/about/layer44-min.jpg,
+                        ./images/about/layer44@2x-min.jpg 2x
+                      "
+                    />
+                    <img src="./images/about/layer44-min.jpg" alt="keyboard" />
+                  </picture>
                 </div>
               </a>
             </li>
@@ -133,13 +134,20 @@
                     </svg>
                     <p class="about-list__text">best media</p>
                   </div>
-                  <img
-                    src="images/about/layer39-min.jpg"
-                    alt="headphones"
-                    class="about-list__img"
-                    sizes="380"
-                    height="250"
-                  />
+                  <picture class="about-list__img">
+                    <source
+                      srcset="
+                        ./images/about/layer39-min.jpg,
+                        ./images/about/layer39@2x-min.jpg 2x
+                      "
+                    />
+                    <img
+                      src="images/about/layer39-min.jpg"
+                      alt="headphones"
+                      sizes="380"
+                      height="250"
+                    />
+                  </picture>
                 </div>
               </a>
             </li>
@@ -152,13 +160,20 @@
                     </svg>
                     <p class="about-list__text">greatest results</p>
                   </div>
-                  <img
-                    src="images/about/layer41-min.jpg"
-                    alt="work table"
-                    class="about-list__img"
-                    sizes="380"
-                    height="250"
-                  />
+                  <picture class="about-list__img">
+                    <source
+                      srcset="
+                        ./images/about/layer41-min.jpg,
+                        ./images/about/layer41@2x-min.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/about/layer41-min.jpg"
+                      alt="work table"
+                      sizes="380"
+                      height="250"
+                    />
+                  </picture>
                 </div>
               </a>
             </li>
@@ -365,8 +380,8 @@
                 <img
                   class="team__item-img"
                   srcset="
-                    ./images/team/layer16-min.jpg    380w,
-                    ./images/team/layer16@2x-min.jpg 760w
+                    ./images/team/layer16-min.jpg,
+                    ./images/team/layer16@2x-min.jpg 2x
                   "
                   src="./images/team/layer16-min.jpg"
                   sizes="380px"
@@ -420,8 +435,8 @@
                 <img
                   class="team__item-img"
                   srcset="
-                    ./images/team/layer19-min.jpg    380w,
-                    ./images/team/layer19@2x-min.jpg 760w
+                    ./images/team/layer19-min.jpg,
+                    ./images/team/layer19@2x-min.jpg 2x
                   "
                   src="./images/team/layer19-min.jpg"
                   sizes="380px"
@@ -474,8 +489,8 @@
                 <img
                   class="team__item-img"
                   srcset="
-                    ./images/team/layer18-min.jpg    380w,
-                    ./images/team/layer18@2x-min.jpg 760w
+                    ./images/team/layer18-min.jpg,
+                    ./images/team/layer18@2x-min.jpg 2x
                   "
                   src="./images/team/layer18-min.jpg"
                   sizes="380px"
@@ -933,75 +948,93 @@
           </div>
           <div class="instagramm__block">
             <h3 class="blogs__title">instagram</h3>
-            <a href="#" class="instagram__link">View more photos</a>
+      
             <div class="instagram__img-block">
-              <img
-                src="./images/contacts/photos-7884M86ovdhbiWKi-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
-              <img
-                src="./images/contacts/photos-7884MJE3ABUJPTO1-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/photos-7884M86ovdhbiWKi-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/photos-7884MJE3ABUJPTO1-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/photos-7884rRdzNWx35XGc-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/photos-7884W4HBOgfC6WDb-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/photos-7884qnJlwaL4TA8x-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/photos-7884MBqau4DkSE9K-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
       
-              <img
-                src="./images/contacts/photos-7884rRdzNWx35XGc-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
-              <img
-                src="./images/contacts/photos-7884W4HBOgfC6WDb-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
-              <img
-                src="./images/contacts/photos-7884qnJlwaL4TA8x-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
-              <img
-                src="./images/contacts/photos-7884MBqau4DkSE9K-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/photos-7884nwL7ruku3rhJ-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
       
-              <img
-                src="./images/contacts/photos-7884nwL7ruku3rhJ-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
-      
-              <img
-                src="./images/contacts/1/photos-78841zcS1oLCjBr4-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
-              <img
-                src="./images/contacts/1/photos-78842fGoMmtuD5Z9-min.jpg"
-                alt=""
-                class="instagram__img"
-                width="88"
-                height="88"
-              />
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/1/photos-78841zcS1oLCjBr4-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
+              <div class="img__wrap">
+                <img
+                  src="./images/contacts/1/photos-78842fGoMmtuD5Z9-min.jpg"
+                  alt=""
+                  class="instagram__img"
+                  width="88"
+                  height="88"
+                />
+              </div>
             </div>
+            <a href="#" class="instagram__link">View more photos</a>
           </div>
         </div>
       </section>
