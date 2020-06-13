@@ -3,8 +3,9 @@
   font-weight: $bold-text;
   color: $color-main-gray;
   margin-bottom: 34px;
+  transition: color 0.2s linear;
 
   &:hover {
-    transform: scale(1.2);
+    color: $color-underline;
   }
 }

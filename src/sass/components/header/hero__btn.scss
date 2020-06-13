@@ -52,26 +52,12 @@
   animation: pulsate 1.2s infinite;
 }
 
-@-webkit-keyframes pulsate {
+@keyframes pulsate {
   30% {
     opacity: 1;
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
   }
 
   100% {
     opacity: 0.3;
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(0.5);
-  }
-}
-
-@-keyframes pulsate {
-  30% {
-    opacity: 1;
-    transform: translateX(-50%) translateY(-50%) scale(1);
-  }
-
-  100% {
-    opacity: 0.3;
-    transform: translateX(-50%) translateY(-50%) scale(0.5);
   }
 }
